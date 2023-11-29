@@ -1,0 +1,46 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+  color: black;
+}
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  background-size: cover;
+}
+.card-container {
+  background-color: white;
+  margin: 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.i {
+  height: 300px;
+  width: 300px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0px;
+}
+.spanEl {
+  color: #ffd569;
+}
