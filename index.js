@@ -30,7 +30,7 @@ class FruitsCounter extends Component {
                 className="i"
                 alt="mango"
               />
-              <button className="btn" onClick={this.addMango}>
+              <button type="button" className="btn" onClick={this.addMango}>
                 Eat Mango
               </button>
             </div>
@@ -40,7 +40,7 @@ class FruitsCounter extends Component {
                 className="i"
                 alt="banana"
               />
-              <button className="btn" onClick={this.addBanana}>
+              <button type="button" className="btn" onClick={this.addBanana}>
                 Eat Banana
               </button>
             </div>
