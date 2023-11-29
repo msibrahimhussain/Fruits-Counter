@@ -3,25 +3,25 @@ import {Component} from 'react'
 import './index.css'
 
 class FruitsCounter extends Component {
-  state = {mango: 0, banana: 0}
+  state = {mangoes: 0, bananas: 0}
 
   addMango = () => {
-    this.setState(prevState => ({mango: prevState.mango + 1}))
+    this.setState(prevState => ({mangoes: prevState.mangoes + 1}))
   }
 
   addBanana = () => {
-    this.setState(prevState => ({banana: prevState.banana + 1}))
+    this.setState(prevState => ({bananas: prevState.bananas + 1}))
   }
 
   render() {
-    const {mango, banana} = this.state
+    const {mangoes, bananas} = this.state
 
     return (
       <div className="bg-container">
         <div className="card-container">
           <h1>
-            Bob ate <span className="spanEl">{mango}</span> mangoes{' '}
-            <span className="spanEl">{banana}</span> bananas
+            Bob ate <span className="spanEl">{mangoes}</span> mangoes
+            <span className="spanEl">{bananas}</span> bananas
           </h1>
           <div className="content-container">
             <div className="item">
